@@ -2,9 +2,9 @@ $body-background: white;
 $body-background404: #15210a;
 $h3-404: white;
 $p-404: white;
-$header-background: #FF336B;
-$footer-background: #FF336B;
-$footer-color: white;
+$header-background: white;
+$footer-background: white;
+$footer-color: #BCC3CE;
 $card-background: transparent;
 $card-textcolor: #767E8B;
 $card-titulocolor: #FF336B;
@@ -17,10 +17,11 @@ $btn-textcolor: #2691FB;
 $btn-bordercolor: #2691FB;
 $card2-background: #F8F8F8;
 $card2-textcolor: #767E8B;
-$card2-titulocolor: #FF336B;
+$card2-titulocolor: #02A9B6;
+$card2-titulocolor2: #FF336B;
 $btn2-textcolor: white;
 $btn2-bordercolor: #2691FB;
-$header-textcolor: #0E3E71;
+$header-textcolor: #02A9B6;
 
 $toplogopadding-left: 20px;
 $toplogopadding-top: 20px;
@@ -58,13 +59,22 @@ li#rata {
 #imageCard {
   padding-left: 20px;
 }
-#textoCard2 {
-  color: $card2-textcolor;
-}
-#textoCard2:before {
-  font-weight: bold;
+#texto1Card2,#texto2Card2,#texto3Card2 {
   color: $card2-titulocolor;
-  content: "Procelar";
+}
+#texto1Card2:before {
+  color: $card2-titulocolor2;
+  content: "Múltiples beneficios ";
+}
+
+#texto2Card2:before {
+
+  color: $card2-titulocolor2;
+  content: "Una barrera natural ";
+}
+#texto3Card2:after {
+  color: $card2-titulocolor2;
+  content: "Lactibión Fem";
 }
 #card2Div,#article1 {
   background: $card2-background;
@@ -222,7 +232,7 @@ button.hollow.button {
 
 .card2-section h5 {
   color: $card2-titulocolor;
-  text-transform: uppercase;
+
 }
 button.hollow.button.button2 {
   color:$btn2-textcolor;

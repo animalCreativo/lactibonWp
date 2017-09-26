@@ -1,33 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="-1000 745 47 47" enable-background="new -1000 745 47 47" xml:space="preserve">
-<title>Page 1</title>
-<desc>Created with Sketch.</desc>
-<g id="Home">
-	<g id="Umbrella---Home" transform="translate(-206.000000, -2032.000000)">
-		<g id="Page-1" transform="translate(206.000000, 2032.000000)">
-			<g id="Group-3">
-				<g id="Clip-2">
-				</g>
-				<defs>
-					<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-1000" y="745.3" width="46.7" height="46.7">
-						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
-					</filter>
-				</defs>
-				<mask maskUnits="userSpaceOnUse" x="-1000" y="745.3" width="46.7" height="46.7" id="mask-2">
-					<g filter="url(#Adobe_OpacityMaskFilter)">
-						<polygon id="path-1" fill="#FFFFFF" points="-953.3,792 -1000,792 -1000,745.3 -953.3,745.3 						"/>
-					</g>
-				</mask>
-				<path id="Fill-1" mask="url(#mask-2)" fill="#FFFFFF" d="M-976.6,747.9c-5.6,0-10.8,2.2-14.7,6.1c-3.9,3.9-6,9.1-6,14.6
-					c0,11.4,9.3,20.7,20.7,20.7c11.4,0,20.7-9.3,20.7-20.7C-955.9,757.2-965.2,747.9-976.6,747.9 M-976.6,792
-					c-12.9,0-23.4-10.5-23.4-23.4c0-6.2,2.4-12.1,6.7-16.5c4.4-4.4,10.3-6.9,16.6-6.9c12.9,0,23.4,10.5,23.4,23.4
-					C-953.3,781.5-963.7,792-976.6,792"/>
-			</g>
-			<path id="Fill-4" fill="#FFFFFF" d="M-980.1,764.3h-2.5v4.2h2.5v12.2h4.9v-12.4h3.4l0.4-4.1h-3.8V762c0-1,0.3-1.4,1.2-1.4h2.6
-				v-4.4h-3.4c-3.7,0-5.3,1.6-5.3,4.7C-980.1,763.7-980.1,764.3-980.1,764.3"/>
-		</g>
-	</g>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>facebookLogo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="41.7638535 42 0.000146482338 42 0.000146482338 0.236856338 41.7638535 0.236856338"></polygon>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lactibon---Home" transform="translate(-161.000000, -2433.000000)">
+            <g id="FOOTER" transform="translate(0.000000, 2303.000000)">
+                <g id="Facebook" transform="translate(161.000000, 130.000000)">
+                    <g id="facebookLogo">
+                        <g id="Group-3" opacity="0.5">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M20.8821634,2.60305352 C15.8865296,2.60305352 11.2073746,4.54096901 7.70776901,8.06009577 C4.23655775,11.5502366 2.33945915,16.1850254 2.36667042,21.1120394 C2.36667042,31.3280958 10.6726141,39.6340394 20.8821634,39.6340394 C31.0917127,39.6340394 39.3976563,31.3280958 39.3976563,21.1185465 C39.3976563,10.9089972 31.0917127,2.60305352 20.8821634,2.60305352 M20.8821634,42.0002366 C9.36765634,42.0002366 0.000473239437,32.632462 0.000473239437,21.1185465 C-0.0302873239,15.5638986 2.11171268,10.3310535 6.03013521,6.39133521 C9.97695211,2.42263099 15.2517972,0.236856338 20.8821634,0.236856338 C32.3960789,0.236856338 41.7638535,9.60403944 41.7638535,21.1185465 C41.7638535,32.632462 32.3960789,42.0002366 20.8821634,42.0002366" id="Fill-1" fill="#BCC3CE" mask="url(#mask-2)"></path>
+                        </g>
+                        <path d="M18.2413793,17.2360743 L16,17.2360743 L16,21.0291777 L18.2413793,21.0291777 L18.2413793,32 L22.6091954,32 L22.6091954,20.9124668 L25.6551724,20.9124668 L26,17.2360743 L22.6091954,17.2360743 L22.6091954,15.193634 C22.6091954,14.2599469 22.8390805,13.9098143 23.6436782,13.9098143 L26,13.9098143 L26,10 L22.954023,10 C19.6781609,10 18.2413793,11.4588859 18.2413793,14.2599469 C18.2413793,16.7108753 18.2413793,17.2360743 18.2413793,17.2360743" id="Fill-4" fill="#02A9B6"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>

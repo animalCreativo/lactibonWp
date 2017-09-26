@@ -1,8 +1,9 @@
+@charset "UTF-8";
 body {
   background: white; }
 
 header {
-  background: #FF336B;
+  background: white;
   height: 120px;
   width: auto;
   padding-top: 20px; }
@@ -20,31 +21,38 @@ li#rata {
 #imageCard {
   padding-left: 20px; }
 
-#textoCard2 {
-  color: #767E8B; }
+#texto1Card2, #texto2Card2, #texto3Card2 {
+  color: #02A9B6; }
 
-#textoCard2:before {
-  font-weight: bold;
+#texto1Card2:before {
   color: #FF336B;
-  content: "Procelar"; }
+  content: "Múltiples beneficios "; }
+
+#texto2Card2:before {
+  color: #FF336B;
+  content: "Una barrera natural "; }
+
+#texto3Card2:after {
+  color: #FF336B;
+  content: "Lactibión Fem"; }
 
 #card2Div, #article1 {
   background: #F8F8F8; }
 
 div#example-menu {
   height: 100%;
-  background: #FF336B; }
+  background: white; }
 
 div#example-menu {
   padding: 0px;
   position-top: -16px; }
 
 .top-bar, .top-bar ul {
-  background: #FF336B; }
+  background: white; }
 
 .top-bar .menu > li:not(.menu-text) > a {
   padding: 1rem;
-  color: #0E3E71;
+  color: #02A9B6;
   font-weight: normal; }
 
 .top-bar .menu li:not(:last-child) {
@@ -59,7 +67,7 @@ div#example-menu {
   padding-right: 40px; }
 
 .headermenu a, .headermenu p {
-  color: #0E3E71;
+  color: #02A9B6;
   font-weight: bold; }
 
 div#example-menu {
@@ -73,17 +81,17 @@ div#example-menu {
   background: transparent; }
 
 .footer, .footer-container {
-  background: #FF336B;
+  background: white;
   padding: 10px; }
 
 .row.footer-container {
-  background: #FF336B; }
+  background: white; }
 
 .footerSocial {
   padding-top: 20px; }
 
 .footermenu a, .footermenu p, .footerSocial p {
-  color: white; }
+  color: #BCC3CE; }
 
 .footermenu a, .footerSocial p {
   font-size: 12px; }
@@ -114,7 +122,7 @@ a::after {
   padding-top: 0px; }
 
 .headermenu a, .headermenu p {
-  color: #0E3E71;
+  color: #02A9B6;
   font-weight: bold; }
 
 .card-section {
@@ -151,14 +159,13 @@ button.hollow.button {
   background: #F8F8F8; }
 
 .header-container {
-  background: #FF336B; }
+  background: white; }
 
 .card2-section p {
   color: #767E8B; }
 
 .card2-section h5 {
-  color: #FF336B;
-  text-transform: uppercase; }
+  color: #02A9B6; }
 
 button.hollow.button.button2 {
   color: white;
