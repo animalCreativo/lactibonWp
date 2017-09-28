@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body {
-  background: white; }
+  background: white;
+  font-family: 'Open Sans', sans-serif; }
 
 header {
   background: white;
@@ -22,7 +23,10 @@ li#rata {
   padding-left: 20px; }
 
 #texto1Card2, #texto2Card2, #texto3Card2 {
-  color: #02A9B6; }
+  color: #02A9B6;
+  font-family: OpenSans;
+  font-weight: 300;
+  font-size: 32px; }
 
 #texto1Card2:before {
   color: #FF336B;
@@ -34,10 +38,25 @@ li#rata {
 
 #texto3Card2:after {
   color: #FF336B;
-  content: "Lactibión Fem"; }
+  content: "Lactibón Fem"; }
 
-#card2Div, #article1 {
-  background: #F8F8F8; }
+#card21Div {
+  background: #F7F7F7; }
+
+#card22Div {
+  background: #F0F0F0; }
+
+#card23Div {
+  background: #f9f9f9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f9f9f9 0%, #d8d8d8 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f9f9f9 0%, #d8d8d8 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f9f9f9 0%, #d8d8d8 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#d8d8d8',GradientType=0 );
+  /* IE6-9 */ }
 
 div#example-menu {
   height: 100%;
@@ -132,9 +151,21 @@ a::after {
 .card-section p {
   color: #767E8B; }
 
+.card2-section {
+  background: transparent; }
+
 .card-section h5 {
   color: #FF336B;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: OpenSans;
+  font-weight: 300;
+  font-size: 32px; }
+
+.textSpecial {
+  color: #02A9B6;
+  font-family: OpenSans;
+  font-weight: 300;
+  font-size: 32px; }
 
 .small-12.medium-6.columns.card2-section {
   padding-left: 20px;
@@ -162,7 +193,15 @@ button.hollow.button {
   background: white; }
 
 .card2-section p {
-  color: #767E8B; }
+  color: #767E8B;
+  font-family: OpenSans;
+  font-weight: 400;
+  font-size: 21px; }
+
+#textoCard2Parrafo {
+  font-family: OpenSans;
+  font-weight: 400;
+  font-size: 16px; }
 
 .card2-section h5 {
   color: #02A9B6; }
@@ -173,7 +212,9 @@ button.hollow.button.button2 {
 
 #menuListHeader {
   text-align: right;
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold; }
 
 ul.menu.headermenu {
   margin-top: 15px; }
@@ -197,6 +238,13 @@ ul.menu.headermenu {
 
 #body404 {
   background: #15210a; }
+
+.small-12.medium-6.columns.card2-section.align-self-middle.text-center {
+  background: transparent; }
+
+.row.container {
+  padding: 25px;
+  padding-bottom: 0px; }
 
 /* Small only */
 @media screen and (max-width: 350px) {

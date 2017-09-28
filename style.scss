@@ -35,6 +35,7 @@ $orbit-bulletcoloractive: #3893FF;
 
 body {
   background: $body-background;
+  font-family: 'Open Sans', sans-serif;
 }
 header{
   background: $header-background;
@@ -61,6 +62,9 @@ li#rata {
 }
 #texto1Card2,#texto2Card2,#texto3Card2 {
   color: $card2-titulocolor;
+  font-family:  Open+Sans;
+  font-weight: 300;   
+  font-size: 32px;
 }
 #texto1Card2:before {
   color: $card2-titulocolor2;
@@ -74,12 +78,24 @@ li#rata {
 }
 #texto3Card2:after {
   color: $card2-titulocolor2;
-  content: "Lactibión Fem";
+  content: "Lactibón Fem";
 }
-#card2Div,#article1 {
-  background: $card2-background;
-}
+#card21Div {
+  background: #F7F7F7;
 
+}
+#card22Div {
+  background: #F0F0F0;
+  
+}
+#card23Div {
+  background: rgb(249,249,249); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(249,249,249,1) 0%, rgba(216,216,216,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(249,249,249,1) 0%,rgba(216,216,216,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(249,249,249,1) 0%,rgba(216,216,216,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#d8d8d8',GradientType=0 ); /* IE6-9 */
+  
+}
 div#example-menu {
     height: 100%;
     background: $header-background;
@@ -193,11 +209,23 @@ a::after {
   color: $card-textcolor;
 }
 
+.card2-section  {
+  background: transparent;
+}
+
 .card-section h5 {
   color: $card-titulocolor;
   text-transform: uppercase;
+  font-family:  Open+Sans;
+  font-weight: 300;   
+  font-size: 32px;
 }
-
+.textSpecial {
+  color: #02A9B6;
+  font-family:  Open+Sans;
+  font-weight: 300;   
+  font-size: 32px;
+}
 .small-12.medium-6.columns.card2-section {
     padding-left: 20px;
     padding-top: 20px;
@@ -228,8 +256,15 @@ button.hollow.button {
 }
 .card2-section p {
   color: $card2-textcolor;
+  font-family:  Open+Sans;
+  font-weight: 400;   
+  font-size: 21px;
 }
-
+#textoCard2Parrafo {
+  font-family:  Open+Sans;
+  font-weight: 400;   
+  font-size: 16px;
+}
 .card2-section h5 {
   color: $card2-titulocolor;
 
@@ -241,7 +276,9 @@ button.hollow.button.button2 {
 
  #menuListHeader  {
   text-align: right;
-   margin-top: 20px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
   }
 
 ul.menu.headermenu {
@@ -273,6 +310,13 @@ ul.menu.headermenu {
   background: $body-background404;
 }
 
+.small-12.medium-6.columns.card2-section.align-self-middle.text-center {
+    background: transparent;
+}
+.row.container {
+    padding: 25px;
+    padding-bottom: 0px;
+}
 
 
 //Medias Queris
