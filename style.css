@@ -36,9 +36,8 @@ li#rata {
   color: #FF336B;
   content: "Una barrera natural "; }
 
-#texto3Card2:after {
-  color: #FF336B;
-  content: "Lactibón Fem"; }
+#texto3Card2 span {
+  color: #FF336B; }
 
 #card21Div {
   background: #F7F7F7; }
