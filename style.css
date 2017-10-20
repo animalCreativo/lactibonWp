@@ -1,7 +1,9 @@
 @charset "UTF-8";
 body {
   background: white;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400; }
 
 header {
   background: white;
@@ -24,7 +26,7 @@ li#rata {
 
 #texto1Card2, #texto2Card2, #texto3Card2 {
   color: #02A9B6;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 32px; }
 
@@ -71,7 +73,8 @@ div#example-menu {
 .top-bar .menu > li:not(.menu-text) > a {
   padding: 1rem;
   color: #02A9B6;
-  font-weight: normal; }
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; }
 
 .top-bar .menu li:not(:last-child) {
   border-right: 0px solid #4e4e4e; }
@@ -86,7 +89,8 @@ div#example-menu {
 
 .headermenu a, .headermenu p {
   color: #02A9B6;
-  font-weight: bold; }
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; }
 
 div#example-menu {
   height: 120px; }
@@ -139,9 +143,16 @@ a::after {
 .row.footerSocial.show-for-small-only {
   padding-top: 0px; }
 
+.menu-icon::after, .menu-icon:hover::after {
+  background: #02A9B6;
+  top: 0;
+  left: 0;
+  box-shadow: 0 7px 0 #02A9B6, 0 14px 0 #02A9B6; }
+
 .headermenu a, .headermenu p {
   color: #02A9B6;
-  font-weight: bold; }
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; }
 
 .card-section {
   background: transparent;
@@ -156,13 +167,13 @@ a::after {
 .card-section h5 {
   color: #FF336B;
   text-transform: uppercase;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 32px; }
 
 .textSpecial {
   color: #02A9B6;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 32px; }
 
@@ -193,12 +204,12 @@ button.hollow.button {
 
 .card2-section p {
   color: #767E8B;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 21px; }
 
 #textoCard2Parrafo {
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px; }
 
@@ -213,7 +224,7 @@ button.hollow.button.button2 {
   text-align: right;
   margin-top: 20px;
   font-size: 15px;
-  font-weight: bold; }
+  font-weight: 700; }
 
 ul.menu.headermenu {
   margin-top: 15px; }
@@ -224,13 +235,15 @@ ul.menu.headermenu {
 #error-404Title p {
   color: white;
   font-size: 48px;
-  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   text-transform: uppercase; }
 
 #error-404 p {
   color: white;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
-  font-weight: lighter; }
+  font-weight: 400; }
 
 .img-circle {
   border-radius: 50%; }
@@ -252,6 +265,10 @@ ul.menu.headermenu {
     margin-top: 10px; } }
 /* Small only */
 @media screen and (max-width: 39.9375em) {
+  #menuListHeader a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px; }
+
   hr {
     margin-left: 0px; }
 
@@ -262,21 +279,58 @@ ul.menu.headermenu {
   div#imgLogoFooter2Mobile, div#imgFacebookMobile, #pFacebookMobile {
     text-align: center; }
 
+  .top-bar.headermenu.sticky {
+    height: auto; }
+
   #menuFooterMobile {
-    padding: 0px; } }
+    padding: 0px; }
+
+  .headermenu {
+    width: 100%;
+    min-height: 80px;
+    padding-top: 0px; }
+
+  #rowMobile {
+    margin-right: 0px;
+    margin-left: 0px; }
+
+  div#rowMobile {
+    width: 100%;
+    height: 100%; }
+
+  .title-bar {
+    width: 100%; } }
 /* Medium and up */
 @media screen and (min-width: 40em) {
   #imgHeader img {
     width: 150px;
-    padding-top: 10px; } }
+    padding-top: 10px; }
+
+  div#rowMobile {
+    width: 100%; }
+
+  .title-bar {
+    width: 100%; } }
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   #menuListHeader a {
     font-size: 12px; }
 
   #imgOrbit {
-    content: src(); } }
+    content: src(); }
+
+  ul#menuListHeader {
+    margin: 0px; }
+
+  div#menuLactibon {
+    padding: 0px; } }
 /* Large and up */
+@media screen and (min-width: 64em) {
+  div#menuLactibon {
+    padding: 0px; }
+
+  img#imagenLogoLactibon {
+    padding: 10px; } }
 /* Large only */
 
 /*# sourceMappingURL=style.css.map */
