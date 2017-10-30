@@ -141,7 +141,7 @@
               </div>
 
               <div class="small-12 medium-6 columns card2 align-self-bottom">
-                  <img src="assets/producto3.png" class="attachment-full size-full wp-post-image" alt=""  />    
+                  <img src="<?php bloginfo('stylesheet_directory')?>/assets/producto3.png" class="attachment-full size-full wp-post-image" alt=""  />    
               </div>
               <div class="small-12 medium-6 columns  card2-section align-self-middle text-center show-for-medium">
                 <h5 id="texto3Card2">¡Siéntete Plena y Confiada con <span>Lactibón Fem</span>!</h5>
