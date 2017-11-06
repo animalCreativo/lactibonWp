@@ -32,7 +32,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-    <title>Lactibon</title>
+    <meta name="description" content="Lactibón Fem - Limpiador íntimo que cuida y mantiene la integridad y el PH de tu piel, protegiéndola de microorganismos y equilibrando su PH natural.">
+    <meta name="keywords" content="Prevención Infecciones vaginales, hongos vaginales, vaginitis bacteriana, vaginosis, jabón intimo femenino, higiene íntima mujeres.">
+    <title>Lactibón Fem, Limpiador íntimo que protege tu pie</title>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/css/foundation-flex.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/style.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/icons/foundation-icons.css">
@@ -66,7 +68,7 @@
                   <li><a class= "clickMenu" href="#third" >Puntos de Venta</a></li>
               </ul>
               <ul class=" dropdown menu" data-magellan data-dropdown-menu id="menuListHeader">
-                  <li><a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a></li>
+                  <li><a href="mailto:PArriagada@pharmainvesti.cl">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -86,7 +88,7 @@
                 <li><a href="#first" >Beneficios</a></li>
                 <li><a href="#second">Modo de acción</a></li>
                 <li><a href="#third" >Puntos de Venta</a></li>
-                <li><a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a></li>
+                <li><a href="mailto:PArriagada@pharmainvesti.cl">Contacto</a></li>
             </ul>
           </div>
         </div>
@@ -209,7 +211,7 @@
                                 <a href="#third">Puntos de Venta</a>
                             </li>
                             <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                            <a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a>
+                            <a href="mailto:PArriagada@pharmainvesti.cl">Contacto</a>
                             </li>
                         </ul>
                     </nav>
@@ -246,7 +248,7 @@
                         <a href="#third">Puntos de Venta</a>
                     </li>
                     <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                        <a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a>
+                        <a href="mailto:PArriagada@pharmainvesti.cl">Contacto</a>
                     </li>
                 </ul> 
             </div>
